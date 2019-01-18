@@ -275,6 +275,38 @@ color:rgb(30, 211, 114);
     }
 }
 
+@media (max-height: 890px) {
+    
+    #pieds{
+        position: relative;
+    }
+
+    #pieds a{
+        color: #777fff;
+    }
+    
+    #pieds a:hover{
+        color: #1AA85C;
+    }
+    
+}
+
+@media (max-height: 800px) {
+    
+    body::before{
+        content: '';
+        width: 100%;
+        background: linear-gradient(to bottom right,#7780ffa1, #7780ffa1);
+        height: 100%;
+        z-index: -8000;
+        position: absolute;
+        top:-200;
+        left: 0;
+        transform: skew(0deg,-3deg);
+    }
+    
+}
+
 
 
 
