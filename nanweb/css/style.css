@@ -81,9 +81,101 @@ a:hover{
     color: #1AA85C;
 }
 
+/* animated sidebar */
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+
+
 
 
 /* Cards */
+
+  .card__blur {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    filter: blur(5px);
+    height: 200px;
+    text-align: center;
+  }
+
+  .card__nonblur {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+  }
+  
+  .card h4 {
+      margin-top: 20px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .card__logo {
+    margin: auto;
+    width: 120px;
+    transform: translateY(-50%);
+    margin-bottom: -40px;
+  }
+  
+  .card__info {
+    text-align: center;
+  }
+
+  .bord{
+    border-bottom: 2px solid #ccc;
+  }
+  
+
 
 .card{
     margin-left: 6px;
@@ -167,33 +259,24 @@ transform: translate3d(-15px, 0, 0);
 }
 
 .btn2{
-    background: #fff;
-    border-radius: 2px;
-    border-color: #777fff;
-    color: #777fff;
+    width: 100%;
+    text-transform: uppercase;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    background: #1AA85C;
     transition: 0.5;
 }
 
 .btn2:hover{
-    background: #1AA85C;
-    border-radius: 2px;
-    border-color: #1AA85C;
+    background: #777fff;
     color: #fff;
     transition: 0.5;
 }
 
 
-.langages{
-    background: url('../img/fond.jpg') center;
-    background-size: cover;
-
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
 
 .langage{
     color: #fff;
@@ -306,7 +389,6 @@ color:rgb(30, 211, 114);
     }
     
 }
-
 
 
 
