@@ -190,14 +190,6 @@ a:hover{
     border-radius:5px;
 }
 
-#cardOne{
-    height: 500px;
-}
-
-#cardthree{
-    height: 500px;
-}
-
 .cardtitre{
     margin-top: 20px;
     font-size: 20px;
@@ -341,15 +333,27 @@ color:rgb(30, 211, 114);
     #pieds a:hover{
         color: #1AA85C;
     }
-    
-}
 
-@media (max-width: 476px) {
     body::before{
         content: '';
         width: 100%;
         background: linear-gradient(to bottom right,#7780ffa1, #7780ffa1);
-        height: 70%;
+        height: 100%;
+        z-index: -8000;
+        position: absolute;
+        top:-200;
+        left: 0;
+        transform: skew(0deg,-3deg);
+    }
+    
+}
+
+@media (max-width: 235px) {
+    body::before{
+        content: '';
+        width: 100%;
+        background: linear-gradient(to bottom right,#7780ffa1, #7780ffa1);
+        height: 1300px;
         z-index: -8000;
         position: absolute;
         top:-200;
@@ -357,6 +361,8 @@ color:rgb(30, 211, 114);
         transform: skew(0deg,-3deg);
     }
 }
+
+
 
 @media (max-height: 890px) {
     
