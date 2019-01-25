@@ -269,6 +269,23 @@ transform: translate3d(-15px, 0, 0);
 }
 
 
+.btn3{
+    background: transparent;
+    border-radius: 2px;
+    border-color: #1AA85C;
+    color: #1AA85C;
+    transition: 0.5;
+}
+
+.btn3:hover{
+    background: #777fff;
+    border-radius: 2px;
+    border-color: #777fff;
+    color: #fff;
+    transition: 0.5;
+}
+
+
 
 .langage{
     color: #fff;
@@ -395,6 +412,35 @@ color:rgb(30, 211, 114);
     }
     
 }
+
+
+/* domicile */
+
+.carddomicile{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px;
+}
+
+.carddomicile:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.carddomicile h3{
+  font-weight: 600;
+}
+
+@media(max-width: 990px){
+  .carddomicile{
+    margin: 20px;
+  }
+} 
 
 
 
