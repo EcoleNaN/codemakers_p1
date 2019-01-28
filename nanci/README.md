@@ -1,1 +1,22 @@
-ici, doit être héberger votre projet pour le template de nan.ci
+Mega Dropdown
+=========
+
+A responsive and easy to customise mega-dropdown component.
+
+[Article on CodyHouse](http://codyhouse.co/gem/mega-dropdown/)
+
+[Demo](http://codyhouse.co/demo/mega-dropdown/index.html)
+ 
+[Terms](http://codyhouse.co/terms/)
+
+Icons: [Nucleo Library](https://nucleoapp.com/)
+
+Diagonal movement plugin: [jQuery-menu-aim](https://github.com/kamens/jQuery-menu-aim)
+
+
+other tuturiels
+==================
+
+invite scroll => https://codepen.io/nxworld/pen/OyRrGy
+tiny image png => https://tinypng.com/
+laptop => https://codepen.io/hugsbrugs/pen/WQdOBe
